@@ -24,10 +24,10 @@ A modular 2D/UI slot machine prototype built in **Unity (C#)** featuring weighte
 
 ## How to Play & Run the WebGL Build
 
-### Option 1: Play the Prebuilt WebGL Build Locally
-Because browsers restrict loading WebGL `.wasm` / data files over `file://` URLs, serve the WebGL build folder through a local static web server:
+### Option 1: Play the Prebuilt WebGL Build Locally (or Download from GitHub Releases)
+The WebGL build is included in the repository and also packaged on the **GitHub Releases** page for quick download. Because browsers restrict loading WebGL `.wasm` / data files over `file://` URLs, serve the extracted WebGL build folder through a local static web server:
 
-1. Locate your exported WebGL build directory (e.g., `Build/WebGL/` or `WebGL/`).
+1. Locate your exported WebGL build directory (e.g., `Build/WebGL/` or `WebGL/`) or download and extract the build archive from **Releases** (`../../releases`).
 2. Start a local HTTP server from that build directory:
    - **Python**:
      ```bash
